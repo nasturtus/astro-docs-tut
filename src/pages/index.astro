@@ -2,10 +2,10 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Greeting from "../components/Greeting";
 
-const title = "Home Page";
+const title = "Astro for Nastro";
 ---
 
 <BaseLayout title={title}>
-  <h2>My awesome blog title</h2>
+  <h2>Blogging peregrinations</h2>
   <Greeting client:load messages={["Hi", "Hola", "Namaste", "Hey there"]} />
 </BaseLayout>
